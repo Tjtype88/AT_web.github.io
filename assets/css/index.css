@@ -1,0 +1,73 @@
+body{
+margin:0;
+}
+.container{
+    background-color: gainsboro;
+    width: 100%;
+}
+
+.name{
+    font-size: rem;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    margin-top: 2rem;
+    float: left;
+}
+
+.name a{
+    color: white;
+    text-decoration: none;
+    margin-left: 3rem;
+
+}
+
+.navbar{
+    float: right;
+    margin-right: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    display: block;
+}
+
+.navbar li{
+    list-style-type: none;
+    display: inline;
+    margin-left: 2rem;
+    letter-spacing: 5px;
+    margin-right: 2rem;
+}
+
+.navbar a:hover{
+    color:aqua;
+    font-weight: bold;
+}
+
+.ham_menu{
+    width: 35px;
+    height: 3px;
+    background-color: white;
+    margin: 0.5rem 0;
+    border-radius: 1px;
+    display: none;    
+}
+.hidehamburger{
+    visitbility: hidden;
+}
+.exit-img{
+    background-image: url(/assets/Images/x)
+}
+.navbar-btn{
+    display: block;
+    margin-top: -2rem;
+}
+.navbar{
+    width: 100%;
+}
+.full-navbar{
+    display: none;
+}
+ @media screen and (max-width: 840px) {
+     .full-navbar{
+         display: block !important;
+     }
+ }
